@@ -1,0 +1,24 @@
+{
+    "General": {
+	    "allwaysMakeJiraLink": "False",
+		"severityTicketMatch":"[\"High\",\"Medium\"]",
+		"remarkTxt":"Jira Ticket created\n"
+	},
+    "Seccubus": {
+	    "seccubusUser":"FILL IN",
+		"seccubusPassword":"FILL IN",
+		"seccubusServer":"https://FILL IN",
+		"getScansUrl":"/seccubus/seccubus/json/getScans.pl",
+		"getFindingsUrl":"/seccubus/seccubus/json/getFindings.pl",
+		"getWorkspacesUrl":"/seccubus/seccubus/json/getWorkspaces.pl",
+		"updateFindingsUrl":"/seccubus/seccubus/json/updateFindings.pl",
+		"getRunsUrl":"/seccubus/seccubus/json/getRuns.pl"
+	},
+	"Jira": {
+	    "jiraUser":"FILL IN",
+		"jiraPassword":"FILL IN",
+		"jiraProjectKey":"FILL IN",
+		"jiraSeverityMapping":"{'Medium':'Major', 'High':'Critical', 'Low':'Minor', 'Not set':'Trivial'}",
+		"jiraApiUrl":"https://FILL IN/rest/api/2/issue/"
+	}
+}  
