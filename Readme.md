@@ -15,8 +15,10 @@ Copyright (c) 2015 by Ar0xA
 3. Run jiraLinkSeccubus without any parameters for a quick help.
 4. Run the application with --spaces=all, --spaces=[id] or --spaces=[id1],[id2],etc.
 
-Note:  The setting alwaysMakeJiraLink True will always create a Jira ticket, even if tickets do NOT have NEW status. Otherwise only tickets in jira will be created if the status in Seccubus is "NEW".
+NOTE 1:  The setting alwaysMakeJiraLink True will always create a Jira ticket, even if tickets do NOT have NEW status. Otherwise only tickets in jira will be created if the status in Seccubus is "NEW".
 
-NOTE:
-I am not a programmer. I made this because I needed it. If my code sucks, if my comments suck. Feel free to issue a pull request and fix my crap code :)
+NOTE 2: I am not a programmer. I made this because I needed it. If my code sucks, if my comments suck. Feel free to issue a pull request and fix my crap code :)
 
+**TODO**
+- Include Seccubus findingID, workspace and scanname in the json to Jira
+- use a local database instead of Seccubus comments to keep track of the link between Seccubus and Jira
