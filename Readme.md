@@ -22,3 +22,4 @@ NOTE 2: I am not a programmer. I made this because I needed it. If my code sucks
 **TODO**
 - Include Seccubus findingID, workspace and scanname in the json to Jira
 - use a local database instead of Seccubus comments to keep track of the link between Seccubus and Jira
+- Map Jira status to Seccubus status, and change accordingly. For example: "Wont Fix" (my status for false positives) in Jira could be "MASKED" in Seccubus.
